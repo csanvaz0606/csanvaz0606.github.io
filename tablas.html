@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="utf-8" />
+    <title>
+        Tablas
+    </title>
+</head>
+
+<body>
+	<header>
+	 <h1>Mis primeras tablas</h1>
+	</header>
+
+	<section>
+		<table border=2 cellspacing="20" cellpadding="50" bgcolor="green">
+			<tr>
+				<th>  CABEZA 1</th>
+				<th>  CABEZA 2</th>
+				<th>  CABEZA 3</th>
+			</tr>
+			<tr>
+				<td bgcolor="red"> fila 1 - celda 1 </td>
+				<td bgcolor="#74ff00"> fila 1 - celda 2 </td>
+				<td bgcolor="blue"> fila 1 - celda 3 </td>
+			</tr>
+			<tr>
+				<td> fila 3 - celda 1 </td>
+				<td> fila 3 - celda 2 </td>
+				<td> fila 3 - celda 3 </td>
+			</tr>
+		</table>
+	</section>
+ 	
+	<hr/>
+	
+	<section>
+		<h1> ROWSPAM y ColsSpan </h1>
+		<h1> tabla 1</h1>
+		<table border=1>
+			<tr>
+				<td> fila 1 - celda 1 </td>
+				<td> fila 1 - celda 2 </td>
+			</tr>
+			<tr>
+				<td colspan=2 align="right"> fila 2 - <b>celda ocupa 2</b> </td>
+				
+			</tr>
+		</table>
+		
+		
+		<h1> tabla 2</h1>
+		
+		<table border=1>
+			<tr>
+				<td colspan=2 align="center"> fila 1 - celda ocupa 2 </td>
+			</tr>
+			<tr>
+				<td> fila 2 - celda 1 </td>
+				<td> fila 2 - celda 2 </td>
+			</tr>
+			
+		</table>
+		
+		<h1> tabla 3</h1>
+		
+		<table border=1>
+			<tr>
+				<td>  celda 1 </td>
+				<td rowspan=2 > celda 2 </td>
+			</tr>
+			<tr>
+				
+				<td> celda 3 </td>
+			</tr>
+			
+		</table>
+		
+		<h1> tabla 4</h1>
+		
+		<table border=1>
+			<tr>
+				<td rowspan=2 > celda 1 </td>
+				<td> celda 2 </td>
+			</tr>
+			<tr>
+				<td> celda 3 </td>
+			</tr>
+			<tr>
+				<td> celda 4 </td>
+				<td> celda 5 </td>
+			</tr>
+			
+		</table>
+	</section>
+	
+	<hr/>
+	
+	<footer>
+	Pie de página &copy; Alfonso	
+	</footer>
+</body>
+
+</html>
